@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <Style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: blueviolet;
+            overflow: hidden;
+
+        }
+        li{
+            display: block;
+            float: left;
+            text-align: center;
+            padding: 14px 16px;
+        }
+        li:hover{
+            background-color: rgb(255, 255, 255);
+        }
+    </Style>
+</head>
+<body>
+    <ul>
+       <li>Home</li>
+       <li><a href="login.html"></a> Login</li>
+       <li>Sign Up</li>
+       <li>Forms</li>
+
+    </ul>
+    <h1>Login</h1>
+    <label for="Username">Username</label>
+    <input type="text" placeholder="Input Username"> <br> <br>
+    <label for="password">Password</label>
+    <input type="password" placeholder="Password"> <br>
+    <button>Login</button>
+    
+</body>
+</html>
